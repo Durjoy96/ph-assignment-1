@@ -9,6 +9,26 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+/* shared styles */
+.title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    text-align: center;
+}
+
 /* header styles */
 /* navbar */
 .navbar {
@@ -56,7 +76,6 @@ body {
 
 .banner-content {
     width: 998px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,20 +92,97 @@ body {
     text-align: center;
 }
 
-.description {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-}
-
 .contact-btn {
     padding: 21px 24px;
     border: none;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* service section styles */
+.service-container {
+    margin: 74px 0 0;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.service-content .description {
+    margin: 24px 0 47px;
+    padding: 0 47px;
+}
+
+.service-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.service-card-1,
+.service-card-2,
+.service-card-3 {
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card-2 {
+    background: linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    flex-direction: row-reverse;
+}
+
+.service-card-content {
+    width: 477px;
+}
+
+.card-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 87px 0 0;
+}
+
+.service-card-2 .card-title {
+    padding: 0;
+}
+
+.card-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    text-align: left;
+    margin: 16px 0 32px 0;
+}
+
+.learn-more-btn {
+    border: none;
+    border: 1px solid rgb(13, 19, 33);
+    background-color: #fff;
+    opacity: 0.7;
+    padding: 12px 20px;
+    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
