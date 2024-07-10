@@ -282,6 +282,29 @@ iframe {
     text-decoration: 2px underline rgb(13, 19, 33);
 }
 
+/* next target styles */
+.next-target-container {
+    margin: 111px 0 0;
+}
+
+.frameworks {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.framework {
+    border: none;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 /* support section styles */
 .support-container {
     height: 313px;
