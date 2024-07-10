@@ -27,6 +27,12 @@ body {
     letter-spacing: 0%;
     opacity: 0.7;
     text-align: center;
+    margin: 24px 0 0;
+}
+
+.container-content {
+    max-width: 852px;
+    margin: 0 auto 48px;
 }
 
 /* header styles */
@@ -120,10 +126,10 @@ main {
     background: rgba(13, 19, 33, 0.02);
 }
 
-.service-content .description {
+/* .service-content .description {
     margin: 24px 0 47px;
     padding: 0 47px;
-}
+} */
 
 .service-cards {
     display: flex;
@@ -196,17 +202,8 @@ main {
     margin: 88px 0 0;
 }
 
-.inspiration-container-content {
-    max-width: 852px;
-    margin: 0 auto 48px;
-}
-
-.inspiration-container-content .description {
-    margin: 24px 0 0;
-}
-
 .video-container {
-    width: 1140px;
+    max-width: 1140px;
     height: 614px;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -216,6 +213,71 @@ main {
 iframe {
     width: 100%;
     height: 100%;
-    border: none; 
+    border: none;
     border-radius: 16px;
+}
+
+/* my current target section styles */
+.current-target-container {
+    margin: 151px 0 0;
+}
+
+.technologies {
+    display: flex;
+    gap: 24px;
+}
+
+.technology-1,
+.technology-2,
+.technology-3 {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+}
+
+.technology-1 {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.technology-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.technology-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.technology-img {
+    margin: 0 0 24px;
+}
+
+.technology-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left
+}
+
+.technology-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0 24px;
+}
+
+.technology-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: 2px underline rgb(13, 19, 33);
 }
