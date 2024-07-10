@@ -86,7 +86,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 32px;
 }
 
 .tagline {
@@ -96,6 +95,11 @@ body {
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
+    margin: 32px 0 0;
+}
+
+.banner-content .description {
+    margin: 24px 0 34px;
 }
 
 .contact-btn {
@@ -110,6 +114,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
+    margin: 0 0 44px;
 }
 
 /* main styles */
